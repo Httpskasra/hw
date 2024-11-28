@@ -1,0 +1,300 @@
+/* general */
+@import url(reset.css);
+
+.clearfix{
+    clear: both;
+}
+/* header */
+#header{
+    text-align: center;
+    background-color: #F0F6FF;
+    padding: 15px;
+}
+#header span{
+    margin-right: 10px;
+    font-size: 14px;
+}
+#header a{
+    text-decoration: none;
+}
+
+/* navigation */
+#menue{
+position: relative;
+display: flex;
+
+
+}
+
+#menue .logo img{
+    width: 150px;
+    height: 80px;
+    margin-left: 25px;
+}
+#menue ul{
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+#menue ul li{
+    display: inline-block;  
+    padding: 0 15px;
+}
+#menue ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+#menue .btns-header{
+    position: absolute;
+    right: 80px;
+    bottom: 35px;
+}
+
+#menue .btns-header .btn{
+    font-size: 15px;
+    padding: 8px 12px;
+    margin-left: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+#menue .btns-header .sales-btn{
+    color: black;
+    border: 1px solid rgb(220, 218, 218);
+}
+#menue .btns-header .sing-up{
+    color: white;
+    background-color: #254FAD;
+}
+
+/* banner */
+#banner{
+    position: relative;
+}
+#banner .bannerHeader{
+    display: block;
+    padding: 15px;
+    border-top: 1px solid gray;
+    margin-bottom: 10px;
+}
+#banner .bannerHeader ul{
+    position: absolute;
+    left: 50px;
+    
+}
+#banner .bannerHeader ul li {
+    display: inline-block;
+}
+#banner .bannerHeader ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+#banner .bannerHeader ul span{
+    color: gray;
+    margin-right:10px;
+    margin-left: 10px;
+}
+#banner .mainBanner{
+    margin-top: 2px;
+    width:100%;
+    height: 248px;
+    background-color: #0C4543;
+}
+#banner .mainBanner .text{
+    position: absolute;
+    right: 110px;
+    bottom:85px;
+    width: 510px;
+    height: 73px;    
+}
+#banner .mainBanner .text p{
+    color: #F0F6FF;
+    font-size: 18px;
+    line-height: 25px;
+}
+#banner .mainBanner .title{
+    /* position: absolute; */
+    float: left;
+    margin-top: 85px;
+    margin-left: 45px;
+    /* left: 50px;
+    bottom: 100px; */
+}
+#banner .mainBanner .title h2{
+    color: #F0F6FF;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* features */
+#features{
+    width: 90%;
+    margin: auto;
+}
+#features .title{
+    padding: 15px;
+    color: gray;
+    /* width: 90%;
+    margin: auto; */
+    border-bottom: 2px gray solid;
+}
+/* #features .features-frame{
+    background-color: red;
+} */
+
+#features .future-item{
+    margin: 15px;
+
+    width: 30%;
+    height: 200px;
+    border-radius: 15px;
+    border: 1px solid rgb(183, 183, 183);
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+#features .future-item .images img{
+    border-radius: 15px;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    
+    
+}
+#features .future-item .images span{
+    position: absolute;
+    left: 15px;
+    top: 70px;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 15px;
+}
+#features .future-item .footer{
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background-color: #c3c7c9;
+}
+#features .future-item .footer .pointer{
+    position: absolute;
+    right: 50px;  
+    font-size: 18px;  
+}
+
+/* sidebar */
+#sidebar{
+    width: 20%;
+    margin: auto;
+    box-sizing: border-box;
+    float: left;
+    /* margin-left: 80px; */
+    margin-top: 20px;
+    overflow: hidden;
+    /* background-color: red; */
+    
+}
+#sidebar .sidebar-line{
+    width: 60%;
+    margin: auto;
+        
+
+}
+#sidebar .sidebar-title{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: medium;
+    margin-left: 40px;
+}
+
+#sidebar .sidebar-checkbtn{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+#sidebar .sidebar-checkbtn .category-title{
+
+}
+#sidebar .sidebar-checkbtn form {
+
+    margin-top: 15px;
+}
+#sidebar .sidebar-checkbtn form .check-input{
+    margin-top: 25px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+#sidebar .sidebar-checkbtn form span{
+    margin-left: 10px;
+}
+#sidebar .sidebar-checkbtn form .sub-btn{
+    margin-top: 20px;
+    padding: 8px 12px;
+    color: black;
+    background-color: #fff;
+    border: 2px solid rgb(197, 195, 195);
+    border-radius: 10px;
+    font-weight: bold;
+}
+/* posts */
+#airtable{
+    width: 80%;
+    float: right;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+#airtable .post-title{
+    font-size: 18px;
+    color: gray;
+    margin: 10px;
+    margin-left: 60px;
+}
+#airtable .post-line{
+    width: 95%;
+    margin: auto;
+
+}
+#airtable article {
+    width: 30%;
+    height: 273px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+#airtable article .images{
+    width: 100%;
+    /* margin: auto; */
+    text-align: center;
+    margin-top: 15px;
+    
+}
+#airtable article img{
+    width: 280px;
+    height: 157px;
+}
+#airtable article .info img{
+    width: 20px;
+    height: 20px;
+}
+#airtable article .info .post-info{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#airtable article .info .post-name{
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* footer */
+#footer ul {
+    display: inline-block;
+    margin: 50px;
+}
